@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Egal",
+        "description": "Egal",
+        "uuid": "4c45a9bd-adc7-e448-1bfe-a7e8c23504bf",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 17, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "49e3fd75-078b-a691-144f-6524852419b5",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "bd7fe486-cd0a-0cd8-d6ac-4deeb684643e",
+            "version": [1, 0, 0],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "description": "Minecraft module, required to use the Minecraft module",
+            "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+            "version": [0, 1, 0]
+        },
+        {
+            "description": "GameTest module, required to use the GameTest module",
+            "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+            "version": [0, 1, 0]
+        },
+        {
+            "description": "GameTest UI module, required to use the GameTest UI module",
+            "uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version": [0, 1, 0]
+        }
+    ]
+}
